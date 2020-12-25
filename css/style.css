@@ -5067,6 +5067,7 @@ p {
     }
     .content11Produk img {
         width: 100%;
+        margin-left: 0%;
     }
     .content11Produk {
         position: absolute;
