@@ -89,15 +89,6 @@ h2 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-
-/* h3 {
-    font-family: 'Merriweather', serif;
-    font-size: 24px;
-    color: #AC4A68;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-} */
-
 p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -167,7 +158,6 @@ p {
     display: block;
     height: 100%;
     min-width: 2560px;
-    /* min-width: 2744px; */
     width: 100%;
     background-size: auto 100%;
     -webkit-animation: clouds linear infinite alternate;
@@ -262,7 +252,6 @@ p {
 
 section.cover {
     background-color: #121212;
-    /* position: relative; */
 }
 
 .coverTitlebig {
@@ -540,15 +529,11 @@ section.cover {
     background-size: auto 100%;
     width: 88px;
     height: 125px;
-    /* width: 69px;
-    height: 125px; */
     will-change: background-position;
     -webkit-animation-name: fly-cycle;
     animation-name: fly-cycle;
     -webkit-animation-timing-function: steps(10);
     animation-timing-function: steps(10);
-    /* -webkit-animation-timing-function: steps(11);
-    animation-timing-function: steps(11); */
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 }
@@ -1151,7 +1136,6 @@ header {
 
 section.content1 {
     position: relative;
-    /* height: 100vh; */
     overflow: hidden;
     background: #f2f6f7;
 }
@@ -1416,7 +1400,6 @@ section.content1 {
 .contentMid1__item2 {
     position: absolute;
     top: -30px;
-    /* left: 70px; */
     left: 0;
     right: 0;
     margin: auto;
@@ -1426,7 +1409,6 @@ section.content1 {
 .contentMid1__item3 {
     position: absolute;
     top: -30px;
-    /* left: 70px; */
     left: 0;
     right: 0;
     margin: auto;
@@ -1436,7 +1418,6 @@ section.content1 {
 .contentMid1__item4 {
     position: absolute;
     top: 0;
-    /* left: 145px; */
     left: 0;
     right: 0;
     margin: auto;
@@ -1446,7 +1427,6 @@ section.content1 {
 .contentMid1__item5 {
     position: absolute;
     top: -30px;
-    /* left: 135px; */
     left: 0;
     right: 0;
     margin: auto;
@@ -1456,7 +1436,6 @@ section.content1 {
 .contentMid1__item6 {
     position: absolute;
     top: 0;
-    /* left: 130px; */
     left: 0;
     right: 0;
     margin: auto;
@@ -1500,60 +1479,42 @@ div#content1Animate1 {
     width: 445px;
     position: relative;
     margin: -50px auto;
-    /* margin-top: -24%; */
 }
 
 div#content1Animate2 {
     width: 445px;
     position: relative;
-    /* margin-top: -15%;
-     */
     margin: 0px auto;
 }
 
 div#content1Animate3 {
-    /* width: 82%; */
     width: 445px;
     position: relative;
     margin: 0px auto;
-    /* margin-top: -1%; */
-    /* margin-left: 3%; */
 }
 
 div#content1Animate4 {
-    /* width: 93%; */
     width: 445px;
     position: relative;
     margin: -35px auto;
-    /* margin-top: -9%; */
-    /* margin-left: 5%; */
 }
 
 div#content1Animate5 {
-    /* width: 94%; */
     width: 445px;
     position: relative;
     margin: -25px auto;
-    /* margin-top: -7%; */
-    /* margin-left: -12%; */
 }
 
 div#content1Animate6 {
-    /* width: 100%; */
     width: 445px;
     position: relative;
     margin: 0px auto;
-    /* margin-left: -10%; */
-    /* margin-top: -3%; */
 }
 
 div#content1Animate7 {
-    /* width: 90%; */
     width: 445px;
     position: relative;
     margin: -20px auto;
-    /* margin-top: -5%; */
-    /* margin-left: -2%; */
 }
 
 .contentMid2__item img,
@@ -1597,7 +1558,6 @@ div#content1Animate7 {
 
 section.content2 {
     position: relative;
-    /* height: 100vh; */
     overflow: hidden;
     background: #121212;
 }
@@ -1618,7 +1578,7 @@ section.content2 {
 
 .content2__bottom {
     position: absolute;
-    bottom: -2px;
+    bottom: -6px;
     left: 0;
     width: 100%;
 }
@@ -1701,7 +1661,6 @@ section.content2 {
 
 section.content3 {
     position: relative;
-    /* height: 100vh; */
     overflow: hidden;
     background: #121212;
 }
@@ -1826,7 +1785,6 @@ section.content3 {
 
 section.content4 {
     position: relative;
-    /* height: 100vh; */
     overflow: hidden;
     background: #FFBF00;
 }
@@ -1953,7 +1911,6 @@ section.content4 {
 
 section.content5 {
     position: relative;
-    /* height: 100vh; */
     overflow: hidden;
     background: #121212;
 }
@@ -2264,7 +2221,6 @@ section.content5 {
 /* content 6 */
 
 section.content6 {
-    /* height: 100vh; */
     background: #121212;
     position: relative;
     padding: 55px 0px;
@@ -2379,7 +2335,6 @@ section.content6 {
 /* content 7 */
 
 section.content7 {
-    /* height: 100vh; */
     background: #05040a;
     overflow: hidden;
 }
@@ -2465,7 +2420,6 @@ section.content7 {
 /* content 8 */
 
 section.content8 {
-    /* height: 100vh; */
     background: #121212;
     overflow: hidden;
     position: relative;
@@ -2481,9 +2435,9 @@ section.content8 {
 
 .content8__bottom {
     position: absolute;
-    bottom: -2px;
+    bottom: -6px;
     left: 0;
-    width: 1005;
+    width: 100%;
 }
 
 .content8Title {
@@ -2580,11 +2534,9 @@ section.content8 {
 /* content 9 */
 
 section.content9 {
-    /* height: 100vh; */
     background: #121212;
     overflow: hidden;
     position: relative;
-    /* padding-bottom: 100px; */
 }
 
 .content9Big {
@@ -2626,11 +2578,6 @@ section.content9 {
     width: 496px;
 }
 
-
-/* .content9Item__left {
-    width: 50%;
-} */
-
 .content9Item__right {
     padding-left: 70px;
     padding-top: 100px;
@@ -2658,15 +2605,9 @@ section.content9 {
     width: 363px;
 }
 
-
-/* .content9Item__left1 {
-    width: 50%;
-} */
-
 .content9Item__right1 {
     padding-right: 80px;
     padding-top: 100px;
-    /* width: 50%; */
     text-align: left;
 }
 
@@ -2714,7 +2655,6 @@ section.content9 {
 /* content 10 */
 
 section.content10 {
-    /* height: 100vh; */
     background: #FFC20A;
     overflow: hidden;
     position: relative;
@@ -2833,7 +2773,6 @@ section.content11 {
     background: #121212;
     overflow: hidden;
     position: relative;
-    /* padding-bottom: 200px; */
 }
 
 .content11Title {
@@ -3408,12 +3347,6 @@ footer {
     animation: preloadAnimateFirst 1s infinite alternate both;
 }
 
-.hexagon {
-    fill: none;
-    stroke-width: 0.075;
-    transition: fill 0.5s ease;
-}
-
 .background {
     stroke: #ffffff;
 }
@@ -3684,12 +3617,6 @@ p {
     padding-bottom: 15px;
 }
 
-
-/* line title */
-
-
-/* 1 */
-
 .faktaTitle1:after {
     content: '';
     position: absolute;
@@ -3829,9 +3756,6 @@ p {
     height: 4px;
     background: #FFBF00;
 }
-
-
-/* e line title */
 
 .modal__content__description {
     font-weight: normal;
@@ -4674,40 +4598,12 @@ p {
         width: 80px;
     }
     .contentMid2 {
-        /* margin-bottom: 15px; */
         margin-top: 10px;
         margin-bottom: 25px;
-        /* margin-top: 10px; */
     }
-    /* .contentMid1__item img,
-    .contentMid1__item1 img,
-    .contentMid1__item4 img,
-    .contentMid1__item6 img {
-        width: 200px;
-    } */
     .contentMid1 {
         height: 255px;
     }
-    /* .contentMid1__item2 img {
-        width: 165px;
-    } */
-    /* .contentMid1__item3 img {
-        width: 180px;
-    } */
-    /* .contentMid1__item4 {
-        top: -10px;
-        left: 98px;
-    } */
-    /* .contentMid1__item5 img {
-        width: 165px;
-    }
-    .contentMid1__item5 {
-        left: 90px;
-    }
-    .contentMid1__item6 {
-        top: -20px;
-        left: 90px;
-    } */
     .content3Title {
         font-size: 14px;
         line-height: 18px;
@@ -4721,9 +4617,6 @@ p {
         top: 25%;
         width: 50px;
         height: 50px;
-    }
-    .content2__bottom {
-        bottom: -1px;
     }
     .content2__top {
         top: -1px;
@@ -4922,9 +4815,6 @@ p {
     }
     #bg7 {
         background: #05040a;
-    }
-    .content8__bottom {
-        bottom: -1px;
     }
     .content8Title {
         font-size: 14px;
@@ -5165,36 +5055,29 @@ p {
     div#content1Animate1 {
         width: 75%;
         margin-top: -15%;
-        /* margin-left: 8%; */
     }
     div#content1Animate2 {
         width: 75%;
         margin-top: -15%;
-        /* margin-left: 10%; */
     }
     div#content1Animate3 {
         width: 75%;
         margin-top: -3%;
-        /* margin-left: 2%; */
     }
     div#content1Animate4 {
         width: 85%;
-        /* margin-left: 2%; */
         margin-top: -10%;
     }
     div#content1Animate5 {
-        /* margin-left: -6%; */
         width: 75%;
         margin-top: -10%;
     }
     div#content1Animate6 {
         width: 75%;
-        /* margin-left: -2%; */
         margin-top: -1%;
     }
     div#content1Animate7 {
         width: 75%;
-        /* margin-left: 1%; */
         margin-top: -10%;
     }
     .coverTitlebig {
